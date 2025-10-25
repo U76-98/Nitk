@@ -1,4 +1,3 @@
-// This file is: app/Components/ScheduleCard.jsx
 import React from 'react';
 
 export default function ScheduleCard({ schedule = {} }) {

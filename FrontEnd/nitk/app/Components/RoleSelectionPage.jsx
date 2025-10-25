@@ -1,17 +1,10 @@
 import React from 'react';
 
-/**
- * RoleSelectionPage Component
- * This is the component that shows the 3 role options.
- * It receives a function 'onSelectRole' as a prop and calls it when
- * a button is clicked.
- */
 export default function RoleSelectionPage({ onSelectRole }) {
   const roles = ['Citizen', 'Green Champion', 'Processing Plant'];
 
   return (
     <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
-      {/* Header */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-gray-900">
           Select Your Role
@@ -21,7 +14,6 @@ export default function RoleSelectionPage({ onSelectRole }) {
         </p>
       </div>
 
-      {/* Role Options */}
       <div className="space-y-4">
         {roles.map((role) => (
           <button

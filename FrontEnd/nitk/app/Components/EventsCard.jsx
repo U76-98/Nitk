@@ -1,9 +1,7 @@
-// This file is: app/Components/EventsCard.jsx
 import React from 'react';
 
 export default function EventsCard({ event = {} }) {
   return (
-    // Note: This one spans two columns on medium screens and up
     <div className="bg-white p-6 rounded-2xl shadow-sm md:col-span-2">
       <h2 className="text-xl font-semibold text-gray-800 mb-3">Upcoming Events</h2>
       <p className="text-gray-600 mb-4">Join an event, help the community, and earn Eco Coins.</p>

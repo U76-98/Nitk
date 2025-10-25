@@ -1,11 +1,8 @@
 import React from 'react';
-import { FaUser } from 'react-icons/fa'; // Make sure you have react-icons
+import { FaUser } from 'react-icons/fa';
 
-// This component just renders the 'user' prop. It's already backend-compatible.
-// { user = {} } prevents a crash if 'user' is ever undefined.
 export default function ProfileCard({ user = {} }) {
 
-  // This log will run in your VS Code terminal
   console.log("ProfileCard Component received this data:", user);
 
   return (
@@ -17,7 +14,6 @@ export default function ProfileCard({ user = {} }) {
           <FaUser className="text-green-800 text-3xl" />
         </div>
         <div>
-          {/* It reads the data from the 'user' prop */}
           <h3 className="text-lg font-semibold text-gray-900">{user.name}</h3>
           <p className="text-sm text-gray-500">Member since {user.joinDate}</p>
         </div>

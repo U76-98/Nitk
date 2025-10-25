@@ -1,8 +1,6 @@
-// This file is: app/Components/TrainingCard.jsx
 import React from 'react';
 
 export default function TrainingCard({ progress = {} }) {
-  // Calculate percentage safely
   const percentage = (progress.completed / progress.total) * 100 || 0;
 
   return (
