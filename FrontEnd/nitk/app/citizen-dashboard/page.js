@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CitizenNavbar from '../Components/CitizenNavbar';
+import CitizenNavbar from '../Components/AppNavbar';
 import ProfileCard from '../Components/ProfileCard';
 import ReportDumpingCard from '../Components/ReportDumpingCard';
 import MarketplaceCard from '../Components/MarketplaceCard';
